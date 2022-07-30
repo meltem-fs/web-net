@@ -1,3 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body{
-    background-image: url(./../bg.jpg);
+    background-image: url(./bg.jpg);
+    background-size: cover;
+}
+
+.container{
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.logo a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 2rem;
+    color: white;
+}
+
+.logo a:hover{
+    color: rgb(61, 153, 219);
+    font-size: 3rem;
+}
+
+.menu a{
+    text-decoration: none;
 }
